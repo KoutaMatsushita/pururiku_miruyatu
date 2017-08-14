@@ -1,0 +1,8 @@
+# access token
+secret/key.json
+
+.DS_Store
+
+dist/*
+
+node_modules/**/*

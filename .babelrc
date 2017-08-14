@@ -1,0 +1,14 @@
+{
+  "plugins": [
+    ["inline-json-import", {}],
+    ["module-resolver", {
+     "root": ["./src"],
+     "alias": {
+       "src": "./src",
+       "secret": "./secret",
+       "tags": "./src/tags",
+       "model": "./src/model"
+     }
+   }]
+  ]
+}
