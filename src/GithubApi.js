@@ -7,7 +7,7 @@ export default class GithubApi {
   }
 
   fetchApi(url) {
-    return fetch(this.endpoint + url +`?&access_token=${key.access_token}`,{
+    return fetch(`${this.endpoint}${url}?&access_token=${key.access_token}`,{
       mode: 'cors',
       headers: {
         'Accept': 'application/vnd.github.inertia-preview+json'
